@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cypress": "^12.11.0",
+    "cypress-plugin-api": "^2.11.0"
+  },
+
+  "scripts": {
+    "cy:run": "cypress run",
+    "test": "cypress run --spec cypress/e2e/integration/**/*,"
+  }
+}
